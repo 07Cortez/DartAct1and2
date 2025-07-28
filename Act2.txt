@@ -1,0 +1,17 @@
+void main() {
+  int result = calculatePerimeter(10, 5, false);
+  print('The result for a rectangle ' + result.toString());
+
+  result = calculatePerimeter(7, 0, true);
+  print('The result for a Square ' + result.toString());
+}
+
+int calculatePerimeter(int width, int height, bool isSquare) {
+
+  if (isSquare) {
+    return 4 * width;
+  } else {
+    return 2 * (width + height);
+  }
+
+}
