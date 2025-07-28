@@ -6,3 +6,6 @@ void main() {
 
   print("$greeting, $name!");
 }
+
+
+Because the dynamic keyword tells the compiler that the variable can hold values of any type and the type checking will be done at runtime, not at compile time.
